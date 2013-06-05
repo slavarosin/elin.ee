@@ -1,0 +1,83 @@
+a {
+color:#d81e06;
+font-family: Arial;
+font-size: 12px;
+border: 0;
+}
+
+a.button {
+font-family: Arial;
+font-size: 12px;
+text-decoration:none;
+color:blue;
+}
+
+p.text {
+padding-left:10px;
+padding-top: 0px;
+font-family: Arial;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+}
+
+p.footer_menu {
+	font-family: Arial;
+	font-size: 9px;
+}
+
+a.footer_menu {
+	font-family: Arial;
+	font-size: 9px;
+	text-decoration:none;
+	color:#d81e06;
+}
+
+p.address {
+font-family:Arial;
+font-size:10px;
+color:#d4d2d2;
+padding: 0 0 0 0;
+}
+a.header_menu {
+border-left-color:#FF0000;
+}
+
+table.text {
+font-family: Arial;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+}
+
+table.object {
+border-style: dotted;
+border-width: 1px;
+font-family: Arial;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+}
+
+select.text {
+font-family: Arial;
+font-size:12px;
+color:#000000;
+font-weight:bold;
+}
+
+div.frame_header{
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+div.lastprojectname {
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+padding-top: 3px;
+}
+
+img {
+	border: 0;
+}

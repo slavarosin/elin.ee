@@ -1,0 +1,277 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(img/bg.gif);
+	background-repeat: repeat-y;
+}
+
+/* TOP: logo ja pilt */
+#top {
+	width: 740px;
+	height: 129px;
+	position: relative;
+	margin-left: 10px;
+}
+#logo {
+	height: 36px;
+	width: 112px;
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+}
+#pilt {
+	float: right;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+/* TITLE */
+#ttlContainer {
+	width: 740px;
+	position: relative;
+	height: 50px;
+	margin-left: 10px;
+}
+#ttl {
+	bottom: 2px;
+	position: absolute;
+	left: 170px;
+}
+#tagasiside {
+	bottom: 0px;
+	position: absolute;
+	right: 0px;
+}
+#triipParem {
+	right: 0px;
+	height: 1px;
+	width: 570px;
+	float: right;
+	background-image: url(img/vahe_hele.gif);
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 50px;
+}
+#triipVasak {
+	left: 0px;
+	height: 1px;
+	width: 141px;
+	float: left;
+	background-image: url(img/vahe_hele.gif);
+	background-repeat: repeat-x;
+	position: absolute;
+	top: 50px;
+}
+
+/* ---Põhiosa--- */
+
+/* Konteiner */
+#hoidja {
+	width: 740px;
+	margin-left: 10px;
+}
+
+/* Vasak menüü */
+#left {
+	float: left;
+	width: 141px;
+	top: 0px;
+}
+
+/* Lingid */
+.rollover {
+	display: block;
+}
+.rollover img {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.rollover:hover {
+	visibility: visible;
+	/* for IE */
+}
+.rollover:hover img {
+	visibility: hidden;
+}
+#firmast {
+	background-image: url(img/l_firmast_over.gif);
+	width: 141px;
+	height: 26px;
+}
+#kontakt {
+	background-image: url(img/l_kontakt_over.gif);
+	width: 141px;
+	height: 26px;	
+}
+#tehtud {
+	background-image: url(img/l_tehtud_over.gif);
+	width: 141px;
+	height: 26px;	
+}
+#galerii {
+	background-image: url(img/l_galerii_over.gif);
+	width: 141px;
+	height: 26px;	
+}
+#litsentsid {
+	background-image: url(img/l_litsentsid_over.gif);
+	width: 141px;
+	height: 26px;	
+}
+#feedback {
+	background-image: url(img/tagasiside_over.gif);
+	width: 79px;
+	height: 16px;	
+}
+/* Lehe sisu */
+#main {
+	float: right;
+	width: 570px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+/* Jalus */
+#footer {
+	width: 740px;
+	background-image: url(img/bg_all.gif);
+	background-repeat: repeat-y;
+	height: 38px;
+	clear: both;
+}
+.footer {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	padding-left: 10px;
+	padding-top: 7px;
+}
+
+/* MUUD */
+a.link10:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: red;
+	text-decoration: none;
+}
+a.link10:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: red;
+	text-decoration: none;
+}
+a.link10:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: red;
+	text-decoration: underline;
+}
+.vorm {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F9F9F9;
+	width: 250px;
+	border: 1px solid #CCCCCC;
+}
+.vormCMS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F9F9F9;
+	width: 95px;
+	border: 1px solid #CCCCCC;
+}
+.vormCMSlai {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F9F9F9;
+	width: 195px;
+	border: 1px solid #CCCCCC;
+}
+.nupp {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F9F9F9;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #CCCCCC;
+}
+a.link12:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.link12:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.link12:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.nuppCMS {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F9F9F9;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #CCCCCC;
+	width: 70px;
+}
+a:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+a:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+textarea {
+	height: 200px;
+	width: 99%;
+}

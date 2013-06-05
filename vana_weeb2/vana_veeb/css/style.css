@@ -1,0 +1,93 @@
+BODY, TD, P, UL {color: #726962; font-family : Verdana, arial; font-size: 11px;}
+A  {text-decoration : none; color: #002769;}
+A:HOVER {text-decoration: underline}
+
+body {
+scrollbar-3d-light-color: #FFCC00; 
+scrollbar-arrow-color: #0000FF; 
+scrollbar-base-color: #000080; 
+scrollbar-dark-shadow-color: #FFCC00; 
+scrollbar-face-color: #FFCC00; 
+scrollbar-highlight-color: #FFFFFF; 
+scrollbar-shadow-color: #0000FF;}
+}
+
+.PyramidLangText {
+	font-size: 10px;
+	color: #000000;
+}
+
+.PyramidLangText:hover {
+	text-decoration: none;
+	color: #002769;
+}
+.PyramidNaviText {color: #555555; font-size: 10px}
+.PyramidNaviTheme { background: #726962}
+
+.PyramidBackMenu { background: #FFFFFF}
+.PyramidMenu {}
+.PyramidMenu2 { background: #B9B9B9}
+.PyramidMenuText {
+	font-family : Verdana, arial;
+}
+
+.PyramidBodyBack { background: #FFFFFF}
+.PyramidBodyLight { background: #F3F3F3 }
+.PyramidBodyText { line-height: 18px}
+.PyramidBodyTextLight { color: #999999; font-size: 10px}
+
+.PyramidFooterTheme { background: #FFFFFF}
+.PyramidFooterText { color: #425600; font-size: 11px}
+
+.PyramidTitleText {
+	color: #002769;
+	font-size: 12px;
+	font-weight: bold;
+}
+.PyramidTextComment { color: #E3AB24; font-size: 11px }
+.PyramidGuestAnswer { color: #C22B2B}
+
+.PyramidFieldSearch {
+background: #FFFFFF;
+width: 143px;
+height: 23px;
+COLOR: black;
+FONT-FAMILY: verdana; 
+FONT-SIZE: 12px
+}
+
+.FormField250 { width: 250px; font-size: 11px ; font-family: arial}
+.FormButton { font-size: 10px; background: #C8E1C4}
+.FormField220 { width: 220px; font-size: 11px ; font-family: arial}
+.FormField { font-size: 11px ; font-family: arial}
+.FormField200 { width: 200px; font-size: 11px ; font-family: arial}
+.FormField100 { width: 100px; font-size: 11px ; font-family: arial}
+.FormField350 { width: 350px; font-size: 11px ; font-family: arial}
+.FormField300 { width: 300px; font-size: 11px ; font-family: arial}
+.FormField450 { width: 450px; font-size: 11px ; font-family: arial }
+.FormField50 { width: 50px; font-size: 11px ; font-family: arial }
+.FormField140 { width: 140px; font-size: 11px ; font-family: arial }
+.FormField550 { width: 550px; font-size: 11px ; font-family: arial }
+
+.PyramidBodyWhite { background: #FFFFFF}
+.PyramidBodyMedium { background: #E7E7E7}
+.PyramidNaviTheme2 {
+background: #EAF8DF
+}
+.PyramidMenuYellow {
+	background-color: #FFD201;
+
+}
+.PyramidSearchText {
+	color: #00225F;
+	font-size: 12px;
+	font-weight: bold;
+
+}
+
+.PyramidNewsText {
+	color: #00225F;
+	font-size: 12px;
+	font-weight: bold;
+
+}

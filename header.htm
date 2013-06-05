@@ -1,0 +1,52 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel='stylesheet' href='header.css' type='text/css'>
+<link href="favicon.png" type="image/png" rel="icon"/>
+<style>
+  body {
+  background-image: url("images/head_background.gif");
+  background-repeat: no-repeat;
+}
+</style>
+<SCRIPT language=JAVASCRIPT>
+function turnon(nm,img){
+document[nm].src= "images/menu/" + img;
+}
+
+function turnoff(nm,img){
+document[nm].src= "images/menu/" + img;
+}
+</SCRIPT>
+</head>
+<body style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;">
+<div class="Table_01">
+	<div class="full-03">
+			<a href="index.htm"  target="_top" class="menu"><IMG STYLE='cursor:hand' NAME=menu1 src='images/menu/button1_off.gif'
+			onMouseover="turnon('menu1','button1_on.gif')"
+			onMouseout="turnon('menu1','button1_off.gif')"></a>
+	</div>
+	<div class="full-06">
+		<img src="images/logo.png" alt="">
+	</div>
+	<div class="full-07">
+		<img src="images/header_text.gif"  height="132" alt="">
+	</div>
+	<div class="full-09">
+		<a href="done.php" class="menu" target="_top"><IMG STYLE='cursor:hand' NAME=menu2 src='images/menu/button2_off.gif'
+			onMouseover="turnon('menu2','button2_on.gif')"
+			onMouseout="turnon('menu2','button2_off.gif')"></a>
+	</div>
+	<div class="full-11">
+		<a href="gallery.htm" class="menu" target="_top"><IMG STYLE='cursor:hand' NAME=menu3 src='images/menu/button3_off.gif'
+			onMouseover="turnon('menu3','button3_on.gif')"
+			onMouseout="turnon('menu3','button3_off.gif')"></a>
+	</div>
+	<div class="full-12">
+		<a href="contact.htm" class="menu" target="_top"><IMG STYLE='cursor:hand' NAME=menu4 src='images/menu/button4_off.gif'
+			onMouseover="turnon('menu4','button4_on.gif')"
+			onMouseout="turnon('menu4','button4_off.gif')"></a>
+	</div>
+</div>
+</body>
+</html>

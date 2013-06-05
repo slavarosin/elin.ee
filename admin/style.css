@@ -1,0 +1,6 @@
+td.underlined {
+	border-bottom: dotted 1px #669999;
+}
+th.title {
+	background: rgb(192,192,192);
+}
